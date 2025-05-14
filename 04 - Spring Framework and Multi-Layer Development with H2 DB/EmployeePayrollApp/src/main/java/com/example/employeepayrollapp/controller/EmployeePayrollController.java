@@ -1,10 +1,12 @@
-package controller;
+package com.example.employeepayrollapp.controller;
 
-import model.EmployeePayroll;
-import repository.EmployeePayrollRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import com.example.employeepayrollapp.model.EmployeePayroll;
+import com.example.employeepayrollapp.repository.EmployeePayrollRepository;
+
 import java.util.List;
 @RestController
 @RequestMapping("/employeepayrollservice")

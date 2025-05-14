@@ -1,4 +1,4 @@
-package model;
+package com.example.employeepayrollapp.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
